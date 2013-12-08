@@ -1,0 +1,33 @@
+source:
+    - .jl|pyg:
+        - pyg: {
+            lexer: julia,
+        }
+    - .jl|julia
+    - .jl
+    - .ex|pyg:
+        - pyg: {
+            lexer: elixir,
+        }
+    - .ex|elixir
+    - .ex
+    - .ls|pyg:
+        - pyg: {
+            lexer: livescript,
+        }
+    - .ls|livescript
+    - .ls
+
+filters:
+    - bespoke.html|jinja:
+        - slides.md|jinja|slides:
+            - title: 3 programovací jazyky budoucnosti - Barcamp Ostrava 2013
+            - source
+            - output: False
+            - slides: {
+                slide-header: "<section id=\"slide%(number)s\">",
+            }
+
+assets:
+    - .js
+    - .css
