@@ -1,6 +1,6 @@
 # Slides for Barcamp Ostrava 2013
 
-Slides for my talk *3 programovací jazyky budoucnosti*
+Slides for my talk **3 programovací jazyky budoucnosti**
 
 ## License
 
