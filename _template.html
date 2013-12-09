@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title></title>
+        <title>{{ page_title }}</title>
         <link href="js/prism/themes/prism-tomorrow.css" rel="stylesheet" type="text/css"/>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
         <link href="css/github.css" rel="stylesheet" type="text/css"/>
@@ -10,7 +10,7 @@
 
     <body>
         <article>
-            {{ d['slides.md|jinja|slides'] }}
+            {{ content }}
         </article>
 
         <script src='js/bespoke.js/dist/bespoke.min.js'></script>

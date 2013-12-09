@@ -1,3 +1,10 @@
+slides.md|jinja|slides:
+    - title: 3 programovací jazyky budoucnosti - Barcamp Ostrava 2013
+    - source
+    - slides: {
+        slide-header: "<section id=\"slide%(number)s\">",
+    }
+
 source:
     - .jl|pyg:
         - pyg: {
@@ -17,16 +24,6 @@ source:
         }
     - .ls|livescript
     - .ls
-
-filters:
-    - bespoke.html|jinja:
-        - slides.md|jinja|slides:
-            - title: 3 programovací jazyky budoucnosti - Barcamp Ostrava 2013
-            - source
-            - output: False
-            - slides: {
-                slide-header: "<section id=\"slide%(number)s\">",
-            }
 
 assets:
     - .js
