@@ -1,6 +1,7 @@
 slides.md|jinja|slides:
     - title: 3 programovací jazyky budoucnosti - Barcamp Ostrava 2013
     - source
+    - output-name: index.html
     - slides: {
         slide-header: "<section id=\"slide%(number)s\">",
     }
@@ -28,3 +29,5 @@ source:
 assets:
     - .js
     - .css
+
+
