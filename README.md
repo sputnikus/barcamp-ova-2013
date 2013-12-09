@@ -1,5 +1,7 @@
 # Slides for Barcamp Ostrava 2013
 
+### Status: Work in progress
+
 Slides for my talk **3 programovací jazyky budoucnosti**
 
 ## License
