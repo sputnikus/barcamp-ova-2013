@@ -83,7 +83,7 @@ Je o jejich specifických vlastnostech
 
 ## Hello World - output
 
-{{ d['hello.ex|elixir'] }}
+{{ d['hello.ex|elixir|pyg'] }}
 
 
 ### such endorsement

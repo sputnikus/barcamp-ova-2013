@@ -11,23 +11,30 @@ source:
         - pyg: {
             lexer: julia,
         }
-    - .jl|julia
+    - .jl|julia|pyg:
+        - pyg: {
+            lexer: text,
+        }
     - .jl
     - .ex|pyg:
         - pyg: {
             lexer: elixir,
         }
-    - .ex|elixir
+    - .ex|elixir|pyg:
+        - pyg: {
+            lexer: text,
+        }
     - .ex
     - .ls|pyg:
         - pyg: {
             lexer: livescript,
         }
-    - .ls|livescript
+    - .ls|livescript|pyg:
+        - pyg: {
+            lexer: text,
+        }
     - .ls
 
 assets:
     - .js
     - .css
-
-
