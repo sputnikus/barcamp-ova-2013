@@ -69,6 +69,23 @@ Je o jejich specifických vlastnostech
 > [Wikipedia](https://en.wikipedia.org/wiki/Elixir_(programming_language))
 
 
+## Features
+
+- Metaprogramování
+- Protokoly
+- Erlang (*pattern matching, OTP*)
+
+
+## Hello World
+
+{{ d['hello.ex|pyg'] }}
+
+
+## Hello World - output
+
+{{ d['hello.ex|elixir'] }}
+
+
 ### such endorsement
 
 ![Dogecoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png 'v rich')
