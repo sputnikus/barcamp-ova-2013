@@ -3,11 +3,17 @@
 Barcamp Ostrava 2013
 
 
-## Disclaimer
+## Disclaimer I
 
 - Nikdo neumí předvídat budoucnost
 - Programátoři jsou liní
 - Hlavně se z toho neposrat
+
+
+## Disclaimer II
+
+- Statické ✕ dynamické typování
+- Čisté ✕ hybridní jazyky
 
 
 ## Context
@@ -44,7 +50,7 @@ RabbitMQ - CouchDB - Riak
 
 Přednáška není ani tak o konkrétních jazycích
 
-Je o vlastnostech, které budou posilovat
+Je o jejich specifických vlastnostech
 
 
 ## Cast
@@ -54,3 +60,17 @@ Je o vlastnostech, které budou posilovat
 - LiveScript
 
 - a pár dalších
+
+
+## Elixir
+
+> ... functional, concurrent, general-purpose programming language built atop the Erlang Virtual Machine (BEAM)
+
+> [Wikipedia](https://en.wikipedia.org/wiki/Elixir_(programming_language))
+
+
+### such endorsement
+
+![Dogecoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png 'v rich')
+
+DBgJe1CMSF1xLtvtLiN9yLyonMykhQxLN1
