@@ -34,7 +34,7 @@ C++, ML, standardizace komunit
 
 ## Context
 
-### Poslední dvě dekády
+### Poslední dvě (a něco) dekády
 
 Java, intepretry, DSL, "návrat" funkcionálního programování
 
@@ -74,6 +74,7 @@ Je o jejich specifických vlastnostech
 - Metaprogramování
 - Protokoly
 - Erlang (*pattern matching, OTP*)
+- Ruby-like syntaxe
 
 
 ## Hello World
@@ -84,6 +85,9 @@ Je o jejich specifických vlastnostech
 ## Hello World - output
 
 {{ d['hello.ex|elixir|pyg'] }}
+
+
+##
 
 
 ### such endorsement
