@@ -12,11 +12,15 @@
         <article>
             
 <section id="slide1">
+<h2></h2>
+</section>
+
+<section id="slide2">
 <h1>3 programovací jazyky budoucnosti</h1>
 <p>Barcamp Ostrava 2013</p>
 </section>
 
-<section id="slide2">
+<section id="slide3">
 <h2>Disclaimer I</h2>
 <ul>
 <li>Nikdo neumí předvídat budoucnost</li>
@@ -25,7 +29,7 @@
 </ul>
 </section>
 
-<section id="slide3">
+<section id="slide4">
 <h2>Disclaimer II</h2>
 <ul>
 <li>Statické ✕ dynamické typování</li>
@@ -33,38 +37,38 @@
 </ul>
 </section>
 
-<section id="slide4">
+<section id="slide5">
 <h2>Context</h2>
 <h3>Pravěk</h3>
 <p>Fortran, o rok později LISP, nakonec "vyhrává" C</p>
 <p>(ve stejné době vzniká Prolog)</p>
 </section>
 
-<section id="slide5">
+<section id="slide6">
 <h2>Context</h2>
 <h3>70. - 80. léta</h3>
 <p>C++, ML, standardizace komunit</p>
 </section>
 
-<section id="slide6">
+<section id="slide7">
 <h2>Context</h2>
 <h3>Poslední dvě (a něco) dekády</h3>
 <p>Java, intepretry, DSL, "návrat" funkcionálního programování</p>
 </section>
 
-<section id="slide7">
+<section id="slide8">
 <h2>2005 - 2007 - 2009</h2>
 <p>RabbitMQ - CouchDB - Riak</p>
 <p><em>Erlang</em></p>
 </section>
 
-<section id="slide8">
+<section id="slide9">
 <h2>Features</h2>
 <p>Přednáška není ani tak o konkrétních jazycích</p>
 <p>Je o jejich specifických vlastnostech</p>
 </section>
 
-<section id="slide9">
+<section id="slide10">
 <h2>Cast</h2>
 <ul>
 <li>Elixir</li>
@@ -78,7 +82,7 @@
 </ul>
 </section>
 
-<section id="slide10">
+<section id="slide11">
 <h2>Elixir</h2>
 <blockquote>
 <p>... functional, concurrent, general-purpose programming language built atop the Erlang Virtual Machine (BEAM)</p>
@@ -86,7 +90,7 @@
 </blockquote>
 </section>
 
-<section id="slide11">
+<section id="slide12">
 <h2>Features</h2>
 <ul>
 <li>Metaprogramování</li>
@@ -96,7 +100,7 @@
 </ul>
 </section>
 
-<section id="slide12">
+<section id="slide13">
 <h2>Hello World</h2>
 <div class="highlight"><pre><a name="hello.ex-pyg.html-1"></a><span class="k">defmodule</span> <span class="no">Hello</span> <span class="k">do</span>
 <a name="hello.ex-pyg.html-2"></a><span class="k">  </span><span class="no">IO</span><span class="o">.</span><span class="n">puts</span> <span class="s2">&quot;Defining the function world&quot;</span>
@@ -112,7 +116,7 @@
 </pre></div>
 </section>
 
-<section id="slide13">
+<section id="slide14">
 <h2>Hello World - output</h2>
 <div class="highlight"><pre><a name="hello.ex-elixir-pyg.html-1"></a>Defining the function world
 <a name="hello.ex-elixir-pyg.html-2"></a>Function world defined
@@ -120,7 +124,7 @@
 </pre></div>
 </section>
 
-<section id="slide14">
+<section id="slide15">
 <h2>Erlang goodness</h2>
 <div class="highlight"><pre><a name="greet.ex-idio.html-1"></a><span class="k">defmodule</span> <span class="no">Greeter</span> <span class="k">do</span>
 <a name="greet.ex-idio.html-2"></a><span class="k">    def</span> <span class="n">greet</span><span class="p">(</span><span class="ss">:male</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span> <span class="k">do</span>
@@ -138,7 +142,7 @@
 </pre></div>
 </section>
 
-<section id="slide15">
+<section id="slide16">
 <h2>Pattern matching - output</h2>
 <div class="highlight"><pre><a name="greet.ex-idio.html-1"></a><span class="no">Greeter</span><span class="o">.</span><span class="n">greet</span><span class="p">(</span><span class="ss">:female</span><span class="p">,</span> <span class="s1">&#39;Anna&#39;</span><span class="p">)</span>
 <a name="greet.ex-idio.html-2"></a><span class="no">Greeter</span><span class="o">.</span><span class="n">greet</span><span class="p">(</span><span class="ss">:alien</span><span class="p">,</span> <span class="s1">&#39;E.T.&#39;</span><span class="p">)</span>
@@ -149,12 +153,12 @@
 </pre></div>
 </section>
 
-<section id="slide16">
+<section id="slide17">
 <h2>Why</h2>
 <p>Síla Erlangu obalená přívětivější syntaxí, makry a protokoly</p>
 </section>
 
-<section id="slide17">
+<section id="slide18">
 <h2>More info</h2>
 <ul>
 <li><a href="http://learnxinyminutes.com/docs/elixir/">Learn Elixir in Y minutes</a></li>
@@ -162,7 +166,7 @@
 </ul>
 </section>
 
-<section id="slide18">
+<section id="slide19">
 <h2>Julia</h2>
 <blockquote>
 <p>... a high-level dynamic programming language designed to address the requirements of high-performance numerical and scientific computing while also being effective for general purpose programming</p>
@@ -170,7 +174,7 @@
 </blockquote>
 </section>
 
-<section id="slide19">
+<section id="slide20">
 <h2>Features</h2>
 <ul>
 <li>lépe dokumentovaná náhrada <strong>R</strong></li>
@@ -180,12 +184,12 @@
 </ul>
 </section>
 
-<section id="slide20">
+<section id="slide21">
 <h2>IJulia</h2>
 <p>Demo time</p>
 </section>
 
-<section id="slide21">
+<section id="slide22">
 <h3>such endorsement</h3>
 <p><img alt="Dogecoin" src="http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png" title="v rich" /></p>
 <p>DBgJe1CMSF1xLtvtLiN9yLyonMykhQxLN1</p>
