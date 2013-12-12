@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>3 programovací jazyky budoucnosti - Barcamp Ostrava 2013</title>
-        <link href="js/prism/themes/prism-tomorrow.css" rel="stylesheet" type="text/css"/>
+        <link href="js/prism/themes/prism-funky.css" rel="stylesheet" type="text/css"/>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
         <link href="css/github.css" rel="stylesheet" type="text/css"/>
     </head>
@@ -48,7 +48,7 @@
 
 <section id="slide6">
 <h2>Context</h2>
-<h3>Poslední dvě dekády</h3>
+<h3>Poslední dvě (a něco) dekády</h3>
 <p>Java, intepretry, DSL, "návrat" funkcionálního programování</p>
 </section>
 
@@ -92,6 +92,7 @@
 <li>Metaprogramování</li>
 <li>Protokoly</li>
 <li>Erlang (<em>pattern matching, OTP</em>)</li>
+<li>Ruby-like syntaxe</li>
 </ul>
 </section>
 
@@ -120,6 +121,65 @@
 </section>
 
 <section id="slide14">
+<h2>Erlang goodness</h2>
+<div class="highlight"><pre><a name="greet.ex-idio.html-1"></a><span class="k">defmodule</span> <span class="no">Greeter</span> <span class="k">do</span>
+<a name="greet.ex-idio.html-2"></a><span class="k">    def</span> <span class="n">greet</span><span class="p">(</span><span class="ss">:male</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span> <span class="k">do</span>
+<a name="greet.ex-idio.html-3"></a><span class="k">        </span><span class="no">IO</span><span class="o">.</span><span class="n">puts</span> <span class="s2">&quot;Hello, Mr. </span><span class="si">#{</span><span class="n">name</span><span class="si">}</span><span class="s2">!&quot;</span>
+<a name="greet.ex-idio.html-4"></a>    <span class="k">end</span>
+<a name="greet.ex-idio.html-5"></a>
+<a name="greet.ex-idio.html-6"></a>    <span class="k">def</span> <span class="n">greet</span><span class="p">(</span><span class="ss">:female</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span> <span class="k">do</span>
+<a name="greet.ex-idio.html-7"></a><span class="k">        </span><span class="no">IO</span><span class="o">.</span><span class="n">puts</span> <span class="s2">&quot;Hello, Mrs. </span><span class="si">#{</span><span class="n">name</span><span class="si">}</span><span class="s2">!&quot;</span>
+<a name="greet.ex-idio.html-8"></a>    <span class="k">end</span>
+<a name="greet.ex-idio.html-9"></a>
+<a name="greet.ex-idio.html-10"></a>    <span class="k">def</span> <span class="n">greet</span><span class="p">(</span><span class="n">_</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span> <span class="k">do</span>
+<a name="greet.ex-idio.html-11"></a><span class="k">        </span><span class="no">IO</span><span class="o">.</span><span class="n">puts</span> <span class="s2">&quot;Hello, </span><span class="si">#{</span><span class="n">name</span><span class="si">}</span><span class="s2">!&quot;</span>
+<a name="greet.ex-idio.html-12"></a>    <span class="k">end</span>
+<a name="greet.ex-idio.html-13"></a><span class="k">end</span>
+</pre></div>
+</section>
+
+<section id="slide15">
+<h2>Pattern matching - output</h2>
+<div class="highlight"><pre><a name="greet.ex-idio.html-1"></a><span class="no">Greeter</span><span class="o">.</span><span class="n">greet</span><span class="p">(</span><span class="ss">:female</span><span class="p">,</span> <span class="s1">&#39;Anna&#39;</span><span class="p">)</span>
+<a name="greet.ex-idio.html-2"></a><span class="no">Greeter</span><span class="o">.</span><span class="n">greet</span><span class="p">(</span><span class="ss">:alien</span><span class="p">,</span> <span class="s1">&#39;E.T.&#39;</span><span class="p">)</span>
+</pre></div>
+
+<div class="highlight"><pre><a name="greet.ex-elixir-pyg.html-1"></a>Hello, Mrs. Anna!
+<a name="greet.ex-elixir-pyg.html-2"></a>Hello, E.T.!
+</pre></div>
+</section>
+
+<section id="slide16">
+<h2>Why</h2>
+<p>Síla Erlangu obalená přívětivější syntaxí, makry a protokoly</p>
+</section>
+
+<section id="slide17">
+<h2>More info</h2>
+<ul>
+<li><a href="http://learnxinyminutes.com/docs/elixir/">Learn Elixir in Y minutes</a></li>
+<li><a href="http://elixir-lang.org/">Elixir language</a></li>
+</ul>
+</section>
+
+<section id="slide18">
+<h2>Julia</h2>
+<blockquote>
+<p>... a high-level dynamic programming language designed to address the requirements of high-performance numerical and scientific computing while also being effective for general purpose programming</p>
+<p><a href="https://en.wikipedia.org/wiki/Julia_(programming_language)">Wikipedia</a></p>
+</blockquote>
+</section>
+
+<section id="slide19">
+<h2>Features</h2>
+<ul>
+<li>lépe dokumentovaná náhrada <strong>R</strong></li>
+<li>provázanost na ostatní jazyky</li>
+<li>inspirace LISPy</li>
+</ul>
+</section>
+
+<section id="slide20">
 <h3>such endorsement</h3>
 <p><img alt="Dogecoin" src="http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png" title="v rich" /></p>
 <p>DBgJe1CMSF1xLtvtLiN9yLyonMykhQxLN1</p>
