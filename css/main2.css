@@ -215,28 +215,25 @@ li.bespoke-bullet-inactive {
 .emphatic .bespoke-slide {
   background: #222;
 }
-code {
-  padding: 26px !important;
+pre {
+  padding: 10px !important;
 }
 body {
-  font-family: "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
   font-size: 18px;
   color: whiteSmoke;
   font-weight: 100;
 }
-h1,
-h2,
-h3 {
-  font-weight: 100;
-}
 h1 {
   font-size: 72px;
+  font-weight: 100;
   line-height: 82px;
   letter-spacing: -2px;
   margin-bottom: 16px;
 }
 h2 {
   font-size: 42px;
+  font-weight: 400;
   letter-spacing: -1px;
   margin-bottom: 8px;
 }

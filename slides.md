@@ -87,7 +87,40 @@ Je o jejich specifických vlastnostech
 {{ d['hello.ex|elixir|pyg'] }}
 
 
-##
+## Erlang goodness
+
+{{ d['greet.ex|idio']['defmodule'] }}
+
+
+## Pattern matching - output
+
+{{ d['greet.ex|idio']['use'] }}
+{{ d['greet.ex|elixir|pyg'] }}
+
+
+## Why
+
+Síla Erlangu obalená přívětivější syntaxí, makry a protokoly
+
+
+## More info
+
+- [Learn Elixir in Y minutes](http://learnxinyminutes.com/docs/elixir/)
+- [Elixir language](http://elixir-lang.org/)
+
+
+## Julia
+
+> ... a high-level dynamic programming language designed to address the requirements of high-performance numerical and scientific computing while also being effective for general purpose programming
+
+> [Wikipedia](https://en.wikipedia.org/wiki/Julia_(programming_language))
+
+
+## Features
+
+- lépe dokumentovaná náhrada **R**
+- provázanost na ostatní jazyky
+- inspirace LISPy
 
 
 ### such endorsement

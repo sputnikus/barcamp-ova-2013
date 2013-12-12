@@ -11,6 +11,10 @@ source:
         - pyg: {
             lexer: julia,
         }
+    - .jl|idio:
+        - pyg: {
+            lexer: julia,
+        }
     - .jl|julia|pyg:
         - pyg: {
             lexer: text,
@@ -20,12 +24,20 @@ source:
         - pyg: {
             lexer: elixir,
         }
+    - .ex|idio:
+        - pyg: {
+            lexer: elixir,
+        }
     - .ex|elixir|pyg:
         - pyg: {
             lexer: text,
         }
     - .ex
     - .ls|pyg:
+        - pyg: {
+            lexer: livescript,
+        }
+    - .ls|idio:
         - pyg: {
             lexer: livescript,
         }
