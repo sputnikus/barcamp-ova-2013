@@ -74,10 +74,10 @@ Je o jejich specifických vlastnostech
 
 ## Features
 
-- Metaprogramování
-- Protokoly
 - Erlang (*pattern matching, OTP*)
 - Ruby-like syntaxe
+- Protokoly
+- Metaprogramování
 
 
 ## Hello World
@@ -123,16 +123,34 @@ Síla Erlangu obalená přívětivější syntaxí, makry a protokoly
 
 - lépe dokumentovaná náhrada **R**
 - provázanost na ostatní jazyky
-- inspirace LISPy
+- inspirace LISPy (homoikonický)
 - JIT
 
 
 ## IJulia
 
-Demo time
+[Demo](./ijulia_demo.ipynb) time
 
 
-### such endorsement
+## Why
+
+Numerické a vědecké výpočty často rychlejší než v C/Fortranu, přehledný typový systém, rozšířitelnost
+
+
+## More info
+
+- [Learn Julia in Y minutes](http://learnxinyminutes.com/docs/julia/)
+- [The Julia Language](http://julialang.org/)
+
+
+## LiveScript
+
+> ... adds many features to assist in functional style programming, it also has many improvements for object oriented and imperative programming
+
+> [LiveScript homepage](http://livescript.net/#overview)
+
+
+### wow such endorsement
 
 ![Dogecoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png 'v rich')
 

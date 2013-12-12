@@ -274,9 +274,9 @@ a {
   text-decoration: none;
 }
 #slide1 {
+  background-image: url(../img/rick-roll.gif);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-image: url(../img/rick-roll.gif);
 }
