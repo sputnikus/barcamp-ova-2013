@@ -121,6 +121,12 @@ Síla Erlangu obalená přívětivější syntaxí, makry a protokoly
 - lépe dokumentovaná náhrada **R**
 - provázanost na ostatní jazyky
 - inspirace LISPy
+- JIT
+
+
+## IJulia
+
+Demo time
 
 
 ### such endorsement
