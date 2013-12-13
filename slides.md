@@ -85,7 +85,7 @@ Je o jejich specifických vlastnostech
 {{ d['hello.ex|pyg'] }}
 
 
-## Hello World - output
+## Hello World - result
 
 {{ d['hello.ex|elixir|pyg'] }}
 
@@ -95,7 +95,7 @@ Je o jejich specifických vlastnostech
 {{ d['greet.ex|idio']['defmodule'] }}
 
 
-## Pattern matching - output
+## Pattern matching - result
 
 {{ d['greet.ex|idio']['use'] }}
 {{ d['greet.ex|elixir|pyg'] }}
@@ -148,6 +148,25 @@ Numerické a vědecké výpočty často rychlejší než v C/Fortranu, přehledn
 > ... adds many features to assist in functional style programming, it also has many improvements for object oriented and imperative programming
 
 > [LiveScript homepage](http://livescript.net/#overview)
+
+
+## Features
+
+- ovlivněn Haskellem/F#
+- čistá, funkcionální syntax
+- prelude.ls
+
+
+## Functions everywhere
+
+{{ d['take_two.ls|idio']['take'] }}
+{{ d['take_two.ls|livescript|pyg'] }}
+
+
+## Composition
+
+{{ d['take_last.ls|idio']['application'] }}
+{{ d['take_last.ls|livescript|pyg'] }}
 
 
 ### wow such endorsement
