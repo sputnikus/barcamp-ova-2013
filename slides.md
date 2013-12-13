@@ -169,6 +169,17 @@ Numerické a vědecké výpočty často rychlejší než v C/Fortranu, přehledn
 {{ d['take_last.ls|livescript|pyg'] }}
 
 
+## Why
+
+Současný stav je značně neučesaný, očekávám větší příklon k funkcionálním vlastnostem.
+
+
+## Honorable mentions
+
+- Clojure
+- Nimrod
+
+
 ### wow such endorsement
 
 ![Dogecoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png 'v rich')
