@@ -7,10 +7,6 @@ slides.md|jinja|slides:
     }
 
 source:
-    - .jl|pyg:
-        - pyg: {
-            lexer: julia,
-        }
     - .jl|idio:
         - pyg: {
             lexer: julia,
@@ -20,10 +16,6 @@ source:
             lexer: text,
         }
     - .jl
-    - .ex|pyg:
-        - pyg: {
-            lexer: elixir,
-        }
     - .ex|idio:
         - pyg: {
             lexer: elixir,
@@ -33,10 +25,6 @@ source:
             lexer: text,
         }
     - .ex
-    - .ls|pyg:
-        - pyg: {
-            lexer: livescript,
-        }
     - .ls|idio:
         - pyg: {
             lexer: livescript,

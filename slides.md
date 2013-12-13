@@ -82,7 +82,7 @@ Je o jejich specifických vlastnostech
 
 ## Hello World
 
-{{ d['hello.ex|pyg'] }}
+{{ d['hello.ex|idio'] }}
 
 
 ## Hello World - result
@@ -137,7 +137,7 @@ Síla Erlangu obalená přívětivější syntaxí, makry a protokoly
 
 - lépe dokumentovaná náhrada **R**
 - provázanost na ostatní jazyky
-- inspirace LISPy (homoikonický)
+- inspirace LISPy
 - JIT
 
 
@@ -148,7 +148,7 @@ Síla Erlangu obalená přívětivější syntaxí, makry a protokoly
 
 ## Methods
 
-{{ d['methods.jl|pyg'] }}
+{{ d['methods.jl|idio'] }}
 
 
 ## Methods - result
@@ -195,7 +195,7 @@ Numerické a vědecké výpočty často rychlejší než v C/Fortranu, přehledn
 
 ## Why
 
-Současný stav = kočkopes, dá se očekávat větší příklon k funkcionálním vlastnostem
+Trochu kočkopes, dá se očekávat větší příklon k funkcionálním vlastnostem
 
 
 ## More info
