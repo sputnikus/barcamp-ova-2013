@@ -77,7 +77,7 @@ Je o jejich specifických vlastnostech
 - Erlang (*pattern matching, OTP*)
 - Ruby-like syntaxe
 - Protokoly
-- Metaprogramování
+- Metaprogramování, DSLka
 
 
 ## Hello World
@@ -90,7 +90,7 @@ Je o jejich specifických vlastnostech
 {{ d['hello.ex|elixir|pyg'] }}
 
 
-## Erlang goodness
+## Pattern matching
 
 {{ d['greet.ex|idio']['defmodule'] }}
 
@@ -143,7 +143,17 @@ Síla Erlangu obalená přívětivější syntaxí, makry a protokoly
 
 ## IJulia
 
-[Demo](./ijulia_demo.ipynb) time
+[Demo time](./ijulia_demo.ipynb)
+
+
+## Methods
+
+{{ d['methods.jl|pyg'] }}
+
+
+## Methods - result
+
+{{ d['methods.jl|julia|pyg'] }}
 
 
 ## Why
@@ -185,7 +195,14 @@ Numerické a vědecké výpočty často rychlejší než v C/Fortranu, přehledn
 
 ## Why
 
-Současný stav je značně neučesaný, očekávám větší příklon k funkcionálním vlastnostem.
+Současný stav = kočkopes, dá se očekávat větší příklon k funkcionálním vlastnostem
+
+
+## More info
+
+- [Learn LiveScript in Y minutes](http://learnxinyminutes.com/docs/livescript/)
+- [LiveScript](http://livescript.net/#overview)
+- [prelude.ls](http://prelude.ls)
 
 
 ## Honorable mentions
