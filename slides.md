@@ -207,12 +207,34 @@ Trochu kočkopes, dá se očekávat větší příklon k funkcionálním vlastno
 
 ## Honorable mentions
 
-- Clojure
-- Nimrod
+### Clojure
+
+![Lispers](img/lisp.png 'Some say...')
+
+
+## Clojure
+
+Dialekt LISPu nad JVM
+
+
+## Honorable mentions
+
+### Nimrod
+
+> A new statically typed, compiled programming language which supports metaprogramming
+
+> [Lambda the Ultimate](http://lambda-the-ultimate.org/node/4749)
+
+
+## Thanks
+
+[Martin Putniorz](http://sputnikus.github.io/)
+[@sputnikus](https://twitter.com/sputnikus)
+[slides](http://sputnikus.github.io/barcamp-ova-2013/)
 
 
 ### wow such endorsement
 
-![Dogecoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png 'v rich')
+![Dogecoin](img/dogecoin.png 'v rich')
 
 DBgJe1CMSF1xLtvtLiN9yLyonMykhQxLN1
