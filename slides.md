@@ -100,6 +100,20 @@ Je o jejich specifických vlastnostech
 {{ d['greet.ex|idio']['use'] }}
 {{ d['greet.ex|elixir|pyg'] }}
 
+## Protocols
+
+{{ d['protocols.ex|idio']['basic'] }}
+
+
+## Custom protocol
+
+{{ d['protocols.ex|idio']['custom'] }}
+
+
+## Homoiconicity
+
+{{ d['homoicon.ex|idio'] }}
+
 
 ## Why
 
