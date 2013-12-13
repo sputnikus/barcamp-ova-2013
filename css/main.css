@@ -43,18 +43,6 @@ article.bespoke-parent {
   }
 }
 .bespoke-slide {
-  /*
-  -webkit-transition: -webkit-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease;
-  -moz-transition: -moz-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease;
-  -o-transition: -o-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease;
-  -ms-transition: -ms-transform 0.6s ease, opacity 0.6s ease, background 0.6s ease;
-  transition: transform 0.6s ease, opacity 0.6s ease, background 0.6s ease;
-  -webkit-transform-origin: 50% 50% 0;
-  -moz-transform-origin: 50% 50% 0;
-  -o-transform-origin: 50% 50% 0;
-  -ms-transform-origin: 50% 50% 0;
-  transform-origin: 50% 50% 0;
-  */
   -webkit-transition: -webkit-transform .7s ease, opacity .7s ease, background-color .7s ease;
   -moz-transition: -moz-transform .7s ease, opacity .7s ease, background-color .7s ease;
   -ms-transition: -ms-transform .7s ease, opacity .7s ease, background-color .7s ease;
@@ -113,13 +101,6 @@ article.bespoke-parent {
 }
 
 .bespoke-before {
-  /*
-  -webkit-transform: translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px);
-  -moz-transform: translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px);
-  -o-transform: translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px);
-  -ms-transform: translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px);
-  transform: translateX(100px) translateX(-320px) rotateY(-90deg) translateX(-320px);
-  */
   -webkit-transition: -webkit-transform .7s ease, opacity .7s ease, background-color .7s ease;
   -moz-transition: -moz-transform .7s ease, opacity .7s ease, background-color .7s ease;
   -ms-transition: -ms-transform .7s ease, opacity .7s ease, background-color .7s ease;
@@ -127,13 +108,6 @@ article.bespoke-parent {
   transition: transform .7s ease, opacity .7s ease, background-color .7s ease;
 }
 .bespoke-after {
-  /*
-  -webkit-transform: translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px);
-  -moz-transform: translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px);
-  -o-transform: translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px);
-  -ms-transform: translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px);
-  transform: translateX(-100px) translateX(320px) rotateY(90deg) translateX(320px);
-  */
   -webkit-transition: -webkit-transform .7s ease, opacity .7s ease, background-color .7s ease;
   -moz-transition: -moz-transform .7s ease, opacity .7s ease, background-color .7s ease;
   -ms-transition: -ms-transform .7s ease, opacity .7s ease, background-color .7s ease;
@@ -158,6 +132,7 @@ article.bespoke-parent {
 @media print {
   .bespoke-inactive {
     opacity: 1;
+    z-index: 1;
     -ms-filter: none;
     filter: none;
   }
