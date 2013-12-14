@@ -1,7 +1,7 @@
 ##
 
 
-# Ostrava je prdel
+# Ostrava je prdel!!!
 
 
 # 3 programovací jazyky budoucnosti
