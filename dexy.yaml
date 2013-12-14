@@ -15,7 +15,6 @@ source:
         - pyg: {
             lexer: text,
         }
-    - .jl
     - .ex|idio:
         - pyg: {
             lexer: elixir,
@@ -24,7 +23,6 @@ source:
         - pyg: {
             lexer: text,
         }
-    - .ex
     - .ls|idio:
         - pyg: {
             lexer: livescript,
@@ -33,7 +31,6 @@ source:
         - pyg: {
             lexer: text,
         }
-    - .ls
 
 assets:
     - .js
