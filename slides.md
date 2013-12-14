@@ -1,6 +1,9 @@
 ##
 
 
+## Ostrava je prdel
+
+
 # 3 programovací jazyky budoucnosti
 
 Barcamp Ostrava 2013
@@ -9,7 +12,7 @@ Barcamp Ostrava 2013
 ## Disclaimer I
 
 - Nikdo neumí předvídat budoucnost
-- Programátoři jsou liní
+- Programátoři jsou líní
 - Hlavně se z toho neposrat
 
 
