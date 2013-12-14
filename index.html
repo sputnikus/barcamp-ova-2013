@@ -16,20 +16,24 @@
 </section>
 
 <section id="slide2">
+<h2>Ostrava je prdel</h2>
+</section>
+
+<section id="slide3">
 <h1>3 programovací jazyky budoucnosti</h1>
 <p>Barcamp Ostrava 2013</p>
 </section>
 
-<section id="slide3">
+<section id="slide4">
 <h2>Disclaimer I</h2>
 <ul>
 <li>Nikdo neumí předvídat budoucnost</li>
-<li>Programátoři jsou liní</li>
+<li>Programátoři jsou líní</li>
 <li>Hlavně se z toho neposrat</li>
 </ul>
 </section>
 
-<section id="slide4">
+<section id="slide5">
 <h2>Disclaimer II</h2>
 <ul>
 <li>Statické ✕ dynamické typování</li>
@@ -37,38 +41,38 @@
 </ul>
 </section>
 
-<section id="slide5">
+<section id="slide6">
 <h2>Context</h2>
 <h3>Pravěk</h3>
 <p>Fortran, o rok později LISP, nakonec "vyhrává" C</p>
 <p>(ve stejné době vzniká Prolog)</p>
 </section>
 
-<section id="slide6">
+<section id="slide7">
 <h2>Context</h2>
 <h3>70. - 80. léta</h3>
 <p>C++, ML, standardizace komunit</p>
 </section>
 
-<section id="slide7">
+<section id="slide8">
 <h2>Context</h2>
 <h3>Poslední dvě (a něco) dekády</h3>
 <p>Java, intepretry, DSL, "návrat" funkcionálního programování</p>
 </section>
 
-<section id="slide8">
+<section id="slide9">
 <h2>2005 - 2007 - 2009</h2>
 <p>RabbitMQ - CouchDB - Riak</p>
 <p><em>Erlang</em></p>
 </section>
 
-<section id="slide9">
+<section id="slide10">
 <h2>Features</h2>
 <p>Přednáška není ani tak o konkrétních jazycích</p>
 <p>Je o jejich specifických vlastnostech</p>
 </section>
 
-<section id="slide10">
+<section id="slide11">
 <h2>Cast</h2>
 <ul>
 <li>Elixir</li>
@@ -82,7 +86,7 @@
 </ul>
 </section>
 
-<section id="slide11">
+<section id="slide12">
 <h2>Elixir</h2>
 <blockquote>
 <p>... functional, concurrent, general-purpose programming language built atop the Erlang Virtual Machine (BEAM)</p>
@@ -90,7 +94,7 @@
 </blockquote>
 </section>
 
-<section id="slide12">
+<section id="slide13">
 <h2>Features</h2>
 <ul>
 <li>Erlang (<em>pattern matching, OTP</em>)</li>
@@ -100,7 +104,7 @@
 </ul>
 </section>
 
-<section id="slide13">
+<section id="slide14">
 <h2>Hello World</h2>
 <div class="highlight"><pre><a name="hello.ex-idio.html-1"></a><span class="k">defmodule</span> <span class="no">Hello</span> <span class="k">do</span>
 <a name="hello.ex-idio.html-2"></a><span class="k">  </span><span class="no">IO</span><span class="o">.</span><span class="n">puts</span> <span class="s2">&quot;Defining the function world&quot;</span>
@@ -116,7 +120,7 @@
 </pre></div>
 </section>
 
-<section id="slide14">
+<section id="slide15">
 <h2>Hello World - result</h2>
 <div class="highlight"><pre><a name="hello.ex-elixir-pyg.html-1"></a>Defining the function world
 <a name="hello.ex-elixir-pyg.html-2"></a>Function world defined
@@ -124,7 +128,7 @@
 </pre></div>
 </section>
 
-<section id="slide15">
+<section id="slide16">
 <h2>Pattern matching</h2>
 <div class="highlight"><pre><a name="greet.ex-idio.html-1"></a><span class="k">defmodule</span> <span class="no">Greeter</span> <span class="k">do</span>
 <a name="greet.ex-idio.html-2"></a><span class="k">    def</span> <span class="n">greet</span><span class="p">(</span><span class="ss">:male</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span> <span class="k">do</span>
@@ -142,7 +146,7 @@
 </pre></div>
 </section>
 
-<section id="slide16">
+<section id="slide17">
 <h2>Pattern matching - result</h2>
 <div class="highlight"><pre><a name="greet.ex-idio.html-1"></a><span class="no">Greeter</span><span class="o">.</span><span class="n">greet</span><span class="p">(</span><span class="ss">:female</span><span class="p">,</span> <span class="s1">&#39;Anna&#39;</span><span class="p">)</span>
 <a name="greet.ex-idio.html-2"></a><span class="no">Greeter</span><span class="o">.</span><span class="n">greet</span><span class="p">(</span><span class="ss">:alien</span><span class="p">,</span> <span class="s1">&#39;E.T.&#39;</span><span class="p">)</span>
@@ -153,7 +157,7 @@
 </pre></div>
 </section>
 
-<section id="slide17">
+<section id="slide18">
 <h2>Protocols</h2>
 <div class="highlight"><pre><a name="protocols.ex-idio.html-1"></a><span class="k">defprotocol</span> <span class="no">JSON</span> <span class="k">do</span>
 <a name="protocols.ex-idio.html-2"></a><span class="k">    def</span> <span class="n">to_json</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
@@ -169,7 +173,7 @@
 </pre></div>
 </section>
 
-<section id="slide18">
+<section id="slide19">
 <h2>Custom protocol</h2>
 <div class="highlight"><pre><a name="protocols.ex-idio.html-1"></a><span class="k">defimpl</span> <span class="no">JSON</span><span class="p">,</span> <span class="ss">for:</span> <span class="no">MyAwesomeType</span> <span class="k">do</span>
 <a name="protocols.ex-idio.html-2"></a><span class="c1"># ...</span>
@@ -177,7 +181,7 @@
 </pre></div>
 </section>
 
-<section id="slide19">
+<section id="slide20">
 <h2>Homoiconicity</h2>
 <div class="highlight"><pre><a name="homoicon.ex-idio.html-1"></a><span class="k">defmodule</span> <span class="no">Homoicon</span> <span class="k">do</span>
 <a name="homoicon.ex-idio.html-2"></a><span class="k">    defmacro</span> <span class="k">unless</span><span class="p">(</span><span class="n">expr</span><span class="p">,</span> <span class="n">opts</span><span class="p">)</span> <span class="k">do</span>
@@ -189,12 +193,12 @@
 </pre></div>
 </section>
 
-<section id="slide20">
+<section id="slide21">
 <h2>Why</h2>
 <p>Síla Erlangu obalená přívětivější syntaxí, makry a protokoly</p>
 </section>
 
-<section id="slide21">
+<section id="slide22">
 <h2>More info</h2>
 <ul>
 <li><a href="http://learnxinyminutes.com/docs/elixir/">Learn Elixir in Y minutes</a></li>
@@ -202,7 +206,7 @@
 </ul>
 </section>
 
-<section id="slide22">
+<section id="slide23">
 <h2>Julia</h2>
 <blockquote>
 <p>... a high-level dynamic programming language designed to address the requirements of high-performance numerical and scientific computing while also being effective for general purpose programming</p>
@@ -210,7 +214,7 @@
 </blockquote>
 </section>
 
-<section id="slide23">
+<section id="slide24">
 <h2>Features</h2>
 <ul>
 <li>lépe dokumentovaná náhrada <strong>R</strong></li>
@@ -220,12 +224,12 @@
 </ul>
 </section>
 
-<section id="slide24">
+<section id="slide25">
 <h2>IJulia</h2>
 <p><a href="./ijulia_demo.ipynb">Demo time</a></p>
 </section>
 
-<section id="slide25">
+<section id="slide26">
 <h2>Methods</h2>
 <div class="highlight"><pre><a name="methods.jl-idio.html-1"></a><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">::</span><span class="kt">Float64</span><span class="p">,</span> <span class="n">y</span><span class="p">::</span><span class="kt">Float64</span><span class="p">)</span> <span class="o">=</span> <span class="mi">2</span><span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="p">;</span>
 <a name="methods.jl-idio.html-2"></a>
@@ -241,19 +245,19 @@
 </pre></div>
 </section>
 
-<section id="slide26">
+<section id="slide27">
 <h2>Methods - result</h2>
 <div class="highlight"><pre><a name="methods.jl-julia-pyg.html-1"></a>MethodError(f,(2.0,3))
 <a name="methods.jl-julia-pyg.html-2"></a>1.0
 </pre></div>
 </section>
 
-<section id="slide27">
+<section id="slide28">
 <h2>Why</h2>
 <p>Numerické a vědecké výpočty často rychlejší než v C/Fortranu, přehledný typový systém, rozšířitelnost</p>
 </section>
 
-<section id="slide28">
+<section id="slide29">
 <h2>More info</h2>
 <ul>
 <li><a href="http://learnxinyminutes.com/docs/julia/">Learn Julia in Y minutes</a></li>
@@ -261,7 +265,7 @@
 </ul>
 </section>
 
-<section id="slide29">
+<section id="slide30">
 <h2>LiveScript</h2>
 <blockquote>
 <p>... adds many features to assist in functional style programming, it also has many improvements for object oriented and imperative programming</p>
@@ -269,7 +273,7 @@
 </blockquote>
 </section>
 
-<section id="slide30">
+<section id="slide31">
 <h2>Features</h2>
 <ul>
 <li>ovlivněn Haskellem/F#</li>
@@ -278,7 +282,7 @@
 </ul>
 </section>
 
-<section id="slide31">
+<section id="slide32">
 <h2>Functions everywhere</h2>
 <div class="highlight"><pre><a name="take_two.ls-idio.html-1"></a><span class="nv">take = </span><span class="nf">(n, [x, ...xs]:list) --&gt;</span>
 <a name="take_two.ls-idio.html-2"></a>  <span class="o">|</span> <span class="nx">n</span> <span class="o">&lt;=</span> <span class="mi">0</span>     <span class="o">=&gt;</span> <span class="p">[]</span>
@@ -292,7 +296,7 @@
 </pre></div>
 </section>
 
-<section id="slide32">
+<section id="slide33">
 <h2>Composition</h2>
 <div class="highlight"><pre><a name="take_last.ls-idio.html-1"></a><span class="nv">take-three = </span><span class="nx">take</span> <span class="mi">3</span>
 <a name="take_last.ls-idio.html-2"></a><span class="nv">last-three = </span><span class="nx">reverse</span> <span class="o">&gt;&gt;</span> <span class="nx">take-three</span> <span class="o">&gt;&gt;</span> <span class="nx">reverse</span>
@@ -303,12 +307,12 @@
 </pre></div>
 </section>
 
-<section id="slide33">
+<section id="slide34">
 <h2>Why</h2>
 <p>Trochu kočkopes, dá se očekávat větší příklon k funkcionálním vlastnostem</p>
 </section>
 
-<section id="slide34">
+<section id="slide35">
 <h2>More info</h2>
 <ul>
 <li><a href="http://learnxinyminutes.com/docs/livescript/">Learn LiveScript in Y minutes</a></li>
@@ -317,18 +321,18 @@
 </ul>
 </section>
 
-<section id="slide35">
+<section id="slide36">
 <h2>Honorable mentions</h2>
 <h3>Clojure</h3>
 <p><img alt="Lispers" src="img/lisp.png" title="Some say..." /></p>
 </section>
 
-<section id="slide36">
+<section id="slide37">
 <h2>Clojure</h2>
 <p>Dialekt LISPu nad JVM</p>
 </section>
 
-<section id="slide37">
+<section id="slide38">
 <h2>Honorable mentions</h2>
 <h3>Nimrod</h3>
 <blockquote>
@@ -337,14 +341,14 @@
 </blockquote>
 </section>
 
-<section id="slide38">
+<section id="slide39">
 <h2>Thanks</h2>
 <p><a href="http://sputnikus.github.io/">Martin Putniorz</a><br />
 <a href="https://twitter.com/sputnikus">@sputnikus</a><br />
 <a href="http://sputnikus.github.io/barcamp-ova-2013/">slides</a></p>
 </section>
 
-<section id="slide39">
+<section id="slide40">
 <h3>wow such endorsement</h3>
 <p><img alt="Dogecoin" src="img/dogecoin.png" title="v rich" /></p>
 <p>DBgJe1CMSF1xLtvtLiN9yLyonMykhQxLN1</p>
